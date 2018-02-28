@@ -1,0 +1,87 @@
+cabal: Entering directory '/tmp/cabal-tmp-31851/gtk2hs-buildtools-0.13.3.0'
+Configuring gtk2hs-buildtools-0.13.3.0...
+Preprocessing library for gtk2hs-buildtools-0.13.3.0..
+Building library for gtk2hs-buildtools-0.13.3.0..
+[ 1 of 46] Compiling BaseVersion      ( c2hs/base/admin/BaseVersion.hs, dist/dist-sandbox-5ad9461f/build/BaseVersion.o )
+[ 2 of 46] Compiling C2HSConfig       ( c2hs/toplevel/C2HSConfig.hs, dist/dist-sandbox-5ad9461f/build/C2HSConfig.o )
+[ 3 of 46] Compiling CInfo            ( c2hs/gen/CInfo.hs, dist/dist-sandbox-5ad9461f/build/CInfo.o )
+[ 4 of 46] Compiling Config           ( c2hs/base/admin/Config.hs, dist/dist-sandbox-5ad9461f/build/Config.o )
+[ 5 of 46] Compiling DLists           ( c2hs/base/general/DLists.hs, dist/dist-sandbox-5ad9461f/build/DLists.o )
+[ 6 of 46] Compiling FNameOps         ( c2hs/base/general/FNameOps.hs, dist/dist-sandbox-5ad9461f/build/FNameOps.o )
+[ 7 of 46] Compiling FastMutInt       ( c2hs/base/general/FastMutInt.hs, dist/dist-sandbox-5ad9461f/build/FastMutInt.o )
+[ 8 of 46] Compiling FileOps          ( c2hs/base/general/FileOps.hs, dist/dist-sandbox-5ad9461f/build/FileOps.o )
+[ 9 of 46] Compiling Map              ( c2hs/base/general/Map.hs, dist/dist-sandbox-5ad9461f/build/Map.o )
+[10 of 46] Compiling Binary           ( c2hs/base/general/Binary.hs, dist/dist-sandbox-5ad9461f/build/Binary.o )
+[11 of 46] Compiling Paths_gtk2hs_buildtools ( dist/dist-sandbox-5ad9461f/build/autogen/Paths_gtk2hs_buildtools.hs, dist/dist-sandbox-5ad9461f/build/Paths_gtk2hs_buildtools.o )
+[12 of 46] Compiling HookGenerator    ( callbackGen/HookGenerator.hs, dist/dist-sandbox-5ad9461f/build/HookGenerator.o )
+[13 of 46] Compiling Position         ( c2hs/base/general/Position.hs, dist/dist-sandbox-5ad9461f/build/Position.o )
+[14 of 46] Compiling Errors           ( c2hs/base/errors/Errors.hs, dist/dist-sandbox-5ad9461f/build/Errors.o )
+[15 of 46] Compiling Lexers           ( c2hs/base/syntax/Lexers.hs, dist/dist-sandbox-5ad9461f/build/Lexers.o )
+
+c2hs/base/syntax/Lexers.hs:133:1: warning: [-Wtabs]
+    Tab character found here, and in 172 further locations.
+    Please use spaces instead.
+    |
+133 |                lexactionErr, lexmeta, (>|<), (>||<), ctrlChars, ctrlLexer,
+    | ^^^^^^^^
+[16 of 46] Compiling Set              ( c2hs/base/general/Set.hs, dist/dist-sandbox-5ad9461f/build/Set.o )
+[17 of 46] Compiling StateTrans       ( c2hs/base/state/StateTrans.hs, dist/dist-sandbox-5ad9461f/build/StateTrans.o )
+[18 of 46] Compiling Switches         ( c2hs/state/Switches.hs, dist/dist-sandbox-5ad9461f/build/Switches.o )
+[19 of 46] Compiling TypeGen          ( hierarchyGen/TypeGen.hs, dist/dist-sandbox-5ad9461f/build/TypeGen.o )
+[20 of 46] Compiling UNames           ( c2hs/base/general/UNames.hs, dist/dist-sandbox-5ad9461f/build/UNames.o )
+[21 of 46] Compiling StateBase        ( c2hs/base/state/StateBase.hs, dist/dist-sandbox-5ad9461f/build/StateBase.o )
+[22 of 46] Compiling CIO              ( c2hs/base/state/CIO.hs, dist/dist-sandbox-5ad9461f/build/CIO.o )
+
+c2hs/base/state/CIO.hs:77:1: warning: [-Wdeprecations]
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+   |
+77 | import System.Cmd
+   | ^^^^^^^^^^^^^^^^^
+[23 of 46] Compiling State            ( c2hs/base/state/State.hs, dist/dist-sandbox-5ad9461f/build/State.o )
+[24 of 46] Compiling C2HSState        ( c2hs/state/C2HSState.hs, dist/dist-sandbox-5ad9461f/build/C2HSState.o )
+[25 of 46] Compiling Attributes       ( c2hs/base/syms/Attributes.hs, dist/dist-sandbox-5ad9461f/build/Attributes.o )
+[26 of 46] Compiling Idents           ( c2hs/base/syms/Idents.hs, dist/dist-sandbox-5ad9461f/build/Idents.o )
+[27 of 46] Compiling NameSpaces       ( c2hs/base/syms/NameSpaces.hs, dist/dist-sandbox-5ad9461f/build/NameSpaces.o )
+[28 of 46] Compiling CTokens          ( c2hs/c/CTokens.hs, dist/dist-sandbox-5ad9461f/build/CTokens.o )
+[29 of 46] Compiling CParserMonad     ( c2hs/c/CParserMonad.hs, dist/dist-sandbox-5ad9461f/build/CParserMonad.o )
+[30 of 46] Compiling CLexer           ( dist/dist-sandbox-5ad9461f/build/CLexer.hs, dist/dist-sandbox-5ad9461f/build/CLexer.o )
+
+c2hs/c/CLexer.x:75:14: warning: [-Wtabs]
+    Tab character found here, and in 226 further locations.
+    Please use spaces instead.
+   |
+75 | import UNames    (Name)
+   |              ^^^
+[31 of 46] Compiling CHSLexer         ( c2hs/chs/CHSLexer.hs, dist/dist-sandbox-5ad9461f/build/CHSLexer.o )
+[32 of 46] Compiling CHS              ( c2hs/chs/CHS.hs, dist/dist-sandbox-5ad9461f/build/CHS.o )
+[33 of 46] Compiling GenHeader        ( c2hs/gen/GenHeader.hs, dist/dist-sandbox-5ad9461f/build/GenHeader.o )
+[34 of 46] Compiling CAST             ( c2hs/c/CAST.hs, dist/dist-sandbox-5ad9461f/build/CAST.o )
+[35 of 46] Compiling CPretty          ( c2hs/c/CPretty.hs, dist/dist-sandbox-5ad9461f/build/CPretty.o )
+[36 of 46] Compiling CAttrs           ( c2hs/c/CAttrs.hs, dist/dist-sandbox-5ad9461f/build/CAttrs.o )
+[37 of 46] Compiling CTrav            ( c2hs/c/CTrav.hs, dist/dist-sandbox-5ad9461f/build/CTrav.o )
+[38 of 46] Compiling CBuiltin         ( c2hs/c/CBuiltin.hs, dist/dist-sandbox-5ad9461f/build/CBuiltin.o )
+[39 of 46] Compiling CParser          ( dist/dist-sandbox-5ad9461f/build/CParser.hs, dist/dist-sandbox-5ad9461f/build/CParser.o )
+[40 of 46] Compiling CNames           ( c2hs/c/CNames.hs, dist/dist-sandbox-5ad9461f/build/CNames.o )
+[41 of 46] Compiling C                ( c2hs/c/C.hs, dist/dist-sandbox-5ad9461f/build/C.o )
+[42 of 46] Compiling GBMonad          ( c2hs/gen/GBMonad.hs, dist/dist-sandbox-5ad9461f/build/GBMonad.o )
+[43 of 46] Compiling GenBind          ( c2hs/gen/GenBind.hs, dist/dist-sandbox-5ad9461f/build/GenBind.o )
+[44 of 46] Compiling Version          ( c2hs/toplevel/Version.hs, dist/dist-sandbox-5ad9461f/build/Version.o )
+[45 of 46] Compiling Gtk2HsC2Hs       ( c2hs/toplevel/Gtk2HsC2Hs.hs, dist/dist-sandbox-5ad9461f/build/Gtk2HsC2Hs.o )
+[46 of 46] Compiling Gtk2HsSetup      ( src/Gtk2HsSetup.hs, dist/dist-sandbox-5ad9461f/build/Gtk2HsSetup.o )
+Preprocessing executable 'gtk2hsC2hs' for gtk2hs-buildtools-0.13.3.0..
+Building executable 'gtk2hsC2hs' for gtk2hs-buildtools-0.13.3.0..
+[1 of 1] Compiling Main             ( exe/gtk2hsC2hsMain.hs, dist/dist-sandbox-5ad9461f/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Main.o )
+Linking dist/dist-sandbox-5ad9461f/build/gtk2hsC2hs/gtk2hsC2hs ...
+Preprocessing executable 'gtk2hsHookGenerator' for gtk2hs-buildtools-0.13.3.0..
+Building executable 'gtk2hsHookGenerator' for gtk2hs-buildtools-0.13.3.0..
+[1 of 1] Compiling Main             ( exe/gtk2hsHookGeneratorMain.hs, dist/dist-sandbox-5ad9461f/build/gtk2hsHookGenerator/gtk2hsHookGenerator-tmp/Main.o )
+Linking dist/dist-sandbox-5ad9461f/build/gtk2hsHookGenerator/gtk2hsHookGenerator ...
+Preprocessing executable 'gtk2hsTypeGen' for gtk2hs-buildtools-0.13.3.0..
+Building executable 'gtk2hsTypeGen' for gtk2hs-buildtools-0.13.3.0..
+[1 of 1] Compiling Main             ( exe/gtk2hsTypeGenMain.hs, dist/dist-sandbox-5ad9461f/build/gtk2hsTypeGen/gtk2hsTypeGen-tmp/Main.o )
+Linking dist/dist-sandbox-5ad9461f/build/gtk2hsTypeGen/gtk2hsTypeGen ...
+Installing library in /home/a/Pinyin/.cabal-sandbox/lib/x86_64-linux-ghc-8.2.1/gtk2hs-buildtools-0.13.3.0-3AjOwXTOguVEoWgooSai57
+Installing executable gtk2hsC2hs in /home/a/Pinyin/.cabal-sandbox/bin
+Installing executable gtk2hsHookGenerator in /home/a/Pinyin/.cabal-sandbox/bin
+Installing executable gtk2hsTypeGen in /home/a/Pinyin/.cabal-sandbox/bin
+cabal: Leaving directory '/tmp/cabal-tmp-31851/gtk2hs-buildtools-0.13.3.0'

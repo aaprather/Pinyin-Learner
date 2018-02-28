@@ -1,0 +1,8 @@
+cabal: Entering directory '.'
+Configuring Pinyin-0.1.0.0...
+Preprocessing executable 'Pinyin' for Pinyin-0.1.0.0..
+Building executable 'Pinyin' for Pinyin-0.1.0.0..
+[1 of 1] Compiling Main             ( Main.hs, dist/dist-sandbox-cd772bfd/build/Pinyin/Pinyin-tmp/Main.o )
+Linking dist/dist-sandbox-cd772bfd/build/Pinyin/Pinyin ...
+Installing executable Pinyin in /home/a/git-repos/aprather/project/Pinyin/.cabal-sandbox/bin
+cabal: Leaving directory '.'

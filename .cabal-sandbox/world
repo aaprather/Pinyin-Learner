@@ -1,0 +1,4 @@
+ALUT -any
+OpenAl -any
+SDL ==0.6.5
+gtk -any

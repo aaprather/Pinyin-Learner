@@ -4,7 +4,7 @@ Program is a GUI intended to teach a user how to recognize the four tones of Man
 
 Incomplete project but functional, see 'instructions.pdf' in order to get this program working.
 
-NOTE: This project is meant to be run on Linux systems. YOU MAY NEED TO ADJUST CONFIG SETTINGS IN ORDER TO RUN THIS PROPERLY!
+NOTE: This project is meant to be run on Linux systems.
 
 ![ScreenShot](https://github.com/aaprather/Pinyin-Learner/blob/master/Screen1.png)
 ![ScreenShot](https://github.com/aaprather/Pinyin-Learner/blob/master/instructions%20screenie.png)

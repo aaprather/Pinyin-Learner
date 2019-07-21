@@ -1,10 +1,21 @@
-Haskell project for 3300 Programming Languages. Fall 2017
+# Pinyin-Learner
 
-Program is a GUI intended to teach a user how to recognize the four tones of Mandarin Chinese.
+[Haskell](https://www.haskell.org/) project for *Fall* term 2017,  Programming Languages class.
 
-Incomplete project but functional, see 'instructions.pdf' in order to get this program working.
+This project's GUI was created with the [GIMP Toolkit](https://www.gtk.org/).
 
-NOTE: This project is meant to be run on Linux systems.
+This application was intended to teach a user how to recognize the four tones of Mandarin Chinese by quizzing them.
 
-![ScreenShot](https://github.com/aaprather/Pinyin-Learner/blob/master/Screen1.png)
-![ScreenShot](https://github.com/aaprather/Pinyin-Learner/blob/master/instructions%20screenie.png)
+A sound is played and the user must select correct tone, three incorrect answers and the user must restart.
+
+This project is incomplete and no longer being developed.
+## Screenshots
+### Main Form Screen
+<p align="center">
+<img src="https://raw.githubusercontent.com/aaprather/Pinyin-Learner/master/Screen1.png">
+</p>
+
+### Installation Instructions
+<p align="center">
+<img src="https://raw.githubusercontent.com/aaprather/Pinyin-Learner/master/instructions%20screenie.png">
+</p>

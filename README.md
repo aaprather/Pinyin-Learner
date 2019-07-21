@@ -1,4 +1,4 @@
-# Pinyin-Learner
+# - Pinyin-Learner -
 
 [Haskell](https://www.haskell.org/) project for *Fall* term 2017,  Programming Languages class.
 
